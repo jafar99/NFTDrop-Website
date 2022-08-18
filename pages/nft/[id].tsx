@@ -163,6 +163,18 @@ function NFTDropPage({ collection }: Props) {
                      NFT Market Place
                 </h1>
                 </Link>
+          
+              <Link href={'../blog'}>
+               <button  className="rounded-full text-xs font-bold bg-rose-400 px-4 py-2 text-white lg:px-5lg:py-3 lg:text-base">Blog</button>
+               </Link>
+
+               <Link href={'../faq'}>
+               <button  className="rounded-full text-xs font-bold bg-rose-400 px-4 py-2 text-white lg:px-5lg:py-3 lg:text-base">NFT Info</button>
+               </Link>
+
+
+
+
                 <button onClick={() => (address ? disconnect() : connectWithMetamask()) } className="rounded-full text-xs font-bold bg-rose-400 px-4 py-2 text-white lg:px-5lg:py-3 lg:text-base">
                  {  address ? 'Sign Out' : 'Sign In'  } </button>
                                       

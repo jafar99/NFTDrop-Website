@@ -24,6 +24,8 @@ const Home = ({ collections }: Props) => {
         NFT Market Place
       </h1>
 
+      
+
       <main className="bg-slate-100 p-10 shadow-xl shadow-rose-400/20">
         <div className="grid space-x-3 md:grid-cols-2 lg:grid-cols-32 2xl:grid-cols-4">
           {collections.map((collection) => (
